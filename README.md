@@ -5,8 +5,8 @@ Created By Akash Tyagi. Reach me out at: akashdktyagi@gmail.com
 
 ---
 #### Usefull links:
-* [https://medium.com/javascript-scene/behavior-driven-development-bdd-and-functional-testing-62084ad7f1f2]https://medium.com/javascript-scene/behavior-driven-development-bdd-and-functional-testing-62084ad7f1f2
-* [http://www.thinkcode.se/blog/2016/06/22/cucumber-antipatterns]http://www.thinkcode.se/blog/2016/06/22/cucumber-antipatterns
+* https://medium.com/javascript-scene/behavior-driven-development-bdd-and-functional-testing-62084ad7f1f2
+* http://www.thinkcode.se/blog/2016/06/22/cucumber-antipatterns
 
 ## Introduction: 
 
@@ -209,15 +209,15 @@ Then Traveller will be redirected to following feature: Feature - Edit Travel Pl
 ```gherkin
 Feature: When User wants to use automated travel builder, user will input desired parameters
 
-As a part of this ticket, only below attributes are to be included:
-For Input
-Country Preference
-Category Preference
-Tagging Preferences
-Cost for Whole Trip
-Start Date and End Date
-Keywords to search for (Description)
-Below are User Stories:
+# As a part of this ticket, only below attributes are to be included:
+# For Input
+# Country Preference
+# Category Preference
+# Tagging Preferences
+# Cost for Whole Trip
+# Start Date and End Date
+# Keywords to search for (Description)
+# Below are User Stories:
 
 # User Story - 1
 Given Traveller is logged in and is at profile page: Feature - Profile Page
