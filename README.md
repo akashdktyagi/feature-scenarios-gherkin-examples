@@ -5,8 +5,8 @@ Created By Akash Tyagi. Reach me out at: akashdktyagi@gmail.com
 
 ---
 #### Usefull links:
-* https://medium.com/javascript-scene/behavior-driven-development-bdd-and-functional-testing-62084ad7f1f2
-* http://www.thinkcode.se/blog/2016/06/22/cucumber-antipatterns
+* [https://medium.com/javascript-scene/behavior-driven-development-bdd-and-functional-testing-62084ad7f1f2]
+* [http://www.thinkcode.se/blog/2016/06/22/cucumber-antipatterns]
 
 ## Introduction: 
 
@@ -46,7 +46,7 @@ Few Screen shots of the application to give some perspective.
 
 ```gherkin
 Feature: Traveller is able to create his travel plans by adding multiple legs to his plan
-This feature should implement below user stories.
+#This feature should implement below user stories.
 
 # User Story - 1
 Given Traveller is logged in and is at profile page: Feature - Profile Page 
@@ -131,7 +131,7 @@ And Travel Leg 2 shall be replaced with Travel Activity 1 in DB
 #### Feature - Edit Travel Plan
 ```gherkin
 Feature: User is able to edit travel plan by updating details in any legs of his plan
-This feature should implement below user stories.
+#This feature should implement below user stories.
 
 # User Story - 1
 Given Traveller is logged in
@@ -144,7 +144,7 @@ And editable fields are described in: Feature - Create Travel Plan Requirement
 #### Feature User Sign-in and Sign-Up
 ```gherkin
 Feature - User have to sign in or sign up before being able to use features of website
-Implements below user stories:
+#Implements below user stories:
 
 # User Story - 1
 Given Traveller is not logged in
@@ -181,8 +181,8 @@ Implements below user stories:
 Given Traveller is logged in
 When Traveller lands on this page
 Then Traveller will be able see three things:
-'Create Travel Plan' button
-'Travel Plan Assistant' button 
+|Create Travel Plan button|
+|Travel Plan Assistant button|
 Edit Travel Plans table with list of all Travel Plans belonging to user
 
 # User Story - 2
@@ -208,7 +208,6 @@ Then Traveller will be redirected to following feature: Feature - Edit Travel Pl
 
 ```gherkin
 Feature: When User wants to use automated travel builder, user will input desired parameters
-
 # As a part of this ticket, only below attributes are to be included:
 # For Input
 # Country Preference
@@ -252,8 +251,8 @@ Then the Plan shall also be generated from external data
 
 ```gherkin
 Feature: After user inputs parameters: Feature - Input Parameters for Automated Travel Building , system will publish a suggested plan to user profile page
-Note: More than one plan can be generated
-Below are the User Stories:
+#Note: More than one plan can be generated
+#Below are the User Stories:
 
 # User Story - 1
 Given Traveller has clicked on “Generate Plan” button
