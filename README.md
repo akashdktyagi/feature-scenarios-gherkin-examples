@@ -267,7 +267,7 @@ When Traveller goes back to profile page: Feature - Profile Page
 Then Traveller is able to see the system generated Plans with title format: “Generated plan at time (insert timestamp)”
 And Traveller should be able to click on the Plan and go into it to further customize
 
-# User Story - 3 
+# User Story - 3  
 Given Traveller has clicked on system Generated Plan with title format: “Generated plan at time (insert timestamp)”
 When Traveller goes into the page
 Then Traveller will see details of plan just like in: Feature - Create Travel Plan Requirement 
